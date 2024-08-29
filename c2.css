@@ -1,0 +1,48 @@
+.div2{
+    
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    border: 1px solid white;
+    border-top-left-radius: 10px solid blue;
+    animation: anite 3s linear infinite;
+    box-shadow: 6px 4px 20px rgb(132, 174, 221);
+    border-radius: 10px;
+
+    
+
+}
+
+
+#bk1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 35%;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px aqua;
+    width: 150px;
+    height: 35px;
+    background: linear-gradient(40deg,rgb(162, 0, 255),rgb(0, 238, 255),rgb(128, 0, 128));
+    border: none;
+    
+}
+#ip6{
+    box-shadow: 3px 6px 9px aqua;
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 58%;
+    height: 30px;
+}
+#ip5{
+    margin-left: 35px;
+    background: whitesmoke;
+    border-radius: 5px;
+    width: 58%;
+    box-shadow: 3px 6px 9px aqua;
+    height: 30px;
+}
+.t1{
+    border: 1px solid red;
+}

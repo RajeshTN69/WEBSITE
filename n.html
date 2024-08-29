@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="c2.css">
+</head>
+<body style="background: black;">
+    <div style="margin-top: 100px; ">
+        <div class="div2">
+            <br><br>
+            <label style="color: white;" for="name">NAME</label>
+            <input type="text" id="ip5">
+            <br><br><br>
+
+            <label for="password" style="color: white;">PASSWORD</label>
+            <input type="text" id="ip6">
+
+            
+            <br>
+            <br>
+            <br>
+            <button onclick="func()" id="bk1">CONFIRM</button>
+        </div>
+    </div>
+</body>
+<script>
+function func(){
+    let NAME=document.getElementById('ip5').value;
+    let PASSWORD=document.getElementById('ip6').value;
+
+    let web_name="NICKSON RAJ"
+    let web_pass="12B"
+
+    if(NAME==web_name && PASSWORD==web_pass){
+        window.location="n2.html"
+        
+    }
+    else if(NAME== "" && PASSWORD== ""){
+        alert('your name or password is not filled')
+    }
+
+    else if(NAME== web_name && PASSWORD=="")
+    {
+        document.getElementById('ip5').style.border("1px solid green")
+    }
+    
+}
+</script>
+</html>

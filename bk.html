@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="c1.css">
+</head>
+<body style="background: black;">
+    <div style="margin-top: 100px;">
+        <div class="bk">
+            <br><br>
+            <label style="color: white;" for="name">NAME</label>
+            <input type="text" id="ip3">
+            <br><br><br>
+
+            <label for="password" style="color: white;">PASSWORD</label>
+            <input type="text" id="ip4">
+
+            
+            <br>
+            <br>
+            <br>
+            <button onclick="func()" id="bk1">CONFIRM</button>
+            <div class="card">
+
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function func(){
+        let NAME=document.getElementById('ip3').value;
+        let PASSWORD=document.getElementById('ip4').value;
+
+        let web_name="BALA KUMARAN"
+        let web_pass="12B"
+
+        if(NAME==web_name && PASSWORD==web_pass){
+            window.location="bk2.html"
+        }
+        else if(NAME== "" && PASSWORD== ""){
+            alert('your name or password is not filled')
+        }
+
+        else if(NAME== web_name && PASSWORD=="")
+        {
+            alert('name is correct,but is not correct or entered')
+        }
+        
+    }
+</script>
+</html>
